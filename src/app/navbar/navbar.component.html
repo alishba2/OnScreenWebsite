@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<div>
+  <mat-toolbar>
+    <span>Logo</span>
+    <span class="menu-spacer"></span>
+    <div fxShow="true" fxHide.lt-md="true" class="container">
+      <a mat-button routerLink='/movies' routerLinkActive="list-item-active"> Movies </a>
+      <a mat-button [routerLink]="'/songs'"> Songs </a>
+      <a mat-button [routerLink]="'/videos'"> Videos </a>
+
+    </div>
+  </mat-toolbar>
+
+</div>
+<slider></slider>
+</body>
+</html>
+
+
+
+
+
