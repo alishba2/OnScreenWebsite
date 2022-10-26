@@ -1,0 +1,12 @@
+.imghw{
+  height: 500px;
+  width: 1600px;
+}
+
+*{
+  background-color: black;
+
+}
+.active{
+  display: none;
+}
