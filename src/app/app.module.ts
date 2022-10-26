@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
@@ -17,7 +16,7 @@ import { SliderComponent } from './slider/slider.component';
 import { CommonModule } from '@angular/common';
 import { ListComponent } from './list/list.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
-// import { MatCarouselModule } from '@ngmodule/material-carousel';
+import { MatCarouselModule } from 'ng-mat-carousel';
 
 
 @NgModule({
@@ -42,15 +41,9 @@ import {MatSidenavModule} from '@angular/material/sidenav';
     CommonModule,
     MatButtonModule,
     MatSidenavModule,
-    // MatCarouselModule.forRoot()
-
-
-
-
-
+    MatCarouselModule.forRoot()
 
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
