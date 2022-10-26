@@ -8,6 +8,8 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 import { SongsComponent } from './songs/songs.component';
 import { AuthGuard } from './auth/authguard';
 import { SliderComponent } from './slider/slider.component';
+import { MoviesComponent } from './movies/movies.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 const routes: Routes = [
@@ -18,10 +20,11 @@ const routes: Routes = [
 
   {path:'', component:ListComponent , children:[
     {path:'navbar' , component:NavbarComponent},
-    // {path:'movies' , component:MoviesComponent},
     {path:'songs', component:SongsComponent},
     {path:'videos', component:SongsComponent},
     {path:'slider' , component:SliderComponent},
+    {path:'movies', component:MoviesComponent},
+    {path:'footer', component:FooterComponent}
 
 
 

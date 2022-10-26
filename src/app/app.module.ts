@@ -17,9 +17,11 @@ import { CommonModule } from '@angular/common';
 import { ListComponent } from './list/list.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { MatCarouselModule } from 'ng-mat-carousel';
-// import { FormsModule } from "@angular/forms"
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
-
+import { NextDirective } from './directive/next.directive';
+import { PrevDirective } from './directive/prev.directive';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { MoviesComponent } from './movies/movies.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -33,7 +35,10 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
     NavbarComponent,
     ListComponent,
     SliderComponent,
-
+    PrevDirective,
+    NextDirective,
+    MoviesComponent,
+    FooterComponent
 
   ],
   imports: [
@@ -47,6 +52,8 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
     MatSidenavModule,
     MatCarouselModule.forRoot(),
     // FormsModule,
+
+
     NgbModule
 
 

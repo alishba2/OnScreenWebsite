@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Heebo:wght@100;200&family=Mukta:wght@200&family=Nunito+Sans:wght@300&family=Open+Sans:ital,wght@0,400;0,600;1,400&family=Titillium+Web:ital,wght@1,200&display=swap');
+
 .product {
   padding: 20px 0;
 }
@@ -49,7 +51,6 @@ img{
 }
 section{
   background-color: black;
-
 }
 .title{
   color: white;

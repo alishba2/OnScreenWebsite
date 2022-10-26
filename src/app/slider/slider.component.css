@@ -1,5 +1,5 @@
 .imghw{
-  height: 500px;
+  height: 600px;
   width: 1600px;
 }
 
@@ -10,3 +10,12 @@
 .active{
   display: none;
 }
+.carousel-indicators {
+  display: none;
+}
+
+/* .carousel-indicators {
+  bottom: auto;
+  top: 105%;
+} */
+
