@@ -16,6 +16,7 @@ import { SliderComponent } from './slider/slider.component';
 import { CommonModule } from '@angular/common';
 import { ListComponent } from './list/list.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
+import { MatCarouselModule } from 'ng-mat-carousel';
 
 
 @NgModule({
@@ -40,6 +41,7 @@ import {MatSidenavModule} from '@angular/material/sidenav';
     CommonModule,
     MatButtonModule,
     MatSidenavModule,
+    MatCarouselModule.forRoot()
 
   ],
   bootstrap: [AppComponent]
