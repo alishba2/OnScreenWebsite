@@ -1,7 +1,8 @@
 .main {
   /* background-color:bisque; */
-
+  background-image: url('../../assets/wallpaperflare.com_wallpaper.jpg');
   background-repeat: no-repeat;
+
   background-size: 100% 100%;
   margin: 0px;
   padding: 0px;
@@ -19,37 +20,35 @@
   justify-content: center;
   margin: auto;
   margin-left: 10rem;
-  width: 75%;
+  width: 77%;
   padding: 115px;
-
-
-
-
-
 }
 form{
 
 padding: 35px;
 /* padding-right: 170px; */
-opacity: 80%;
+opacity: 70%;
 /* border: 1px solid  rgb(75, 75, 145); */
-box-shadow: rgb(157, 157, 192) 0px 4px 12px;
+
 position: relative;
+background-color: black;
+
+
 
 }
 
-form div{
+/* form div{
 opacity: 1;
-}
+} */
 .login {
-color: #0d8ea1;
+color:white;
  text-align: center;
 margin-left: 170px;
 
 }
 
 .ran{
-  color: #0d8ea1;
+  color: white;
   /* font-weight: bold; */
 }
 
@@ -61,17 +60,21 @@ margin-left: 170px;
 
 }
 .btnSubmit{
-background-color:#0d8ea1;
+background-color:#E50914;
 width: 400px;
-
+border: none;
+border-radius: 0px;
+z-index:1;
+color: black;
 }
 .btnSubmit:hover{
-background-color: #0d8ea1;
-box-shadow: #0d8ea1;
+background-color: #E50914;
+box-shadow: #E50914;
+
 }
 
 .endText{
-color: #0d8ea1;
+color: white;
 margin-top: 20px;
 
 }

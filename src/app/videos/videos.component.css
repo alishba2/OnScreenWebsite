@@ -1,0 +1,60 @@
+.product {
+  padding: 20px 0;
+}
+
+.slider-wrap {
+  position: relative;
+}
+
+.slider-main {
+
+  display: flex;
+  overflow: hidden;
+  height: 200px;
+
+}
+
+.item {
+  margin: 0 4px;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  font-weight: bold;
+
+}
+
+.prev {
+  position: absolute;
+  left: 22px;
+  top: 27%;
+  transform: translate(-50%, -50%);
+  margin-top: 3rem
+}
+
+.next {
+  position: absolute;
+  right: -5px;
+  top: 38%;
+
+}
+
+img{
+  height: 13rem;
+  width: 10rem;
+}
+section{
+  background-color: black;
+
+}
+.title{
+  color: white;
+  margin:50px;
+  font-size: 25px;
+  font-family: 'Mukta', sans-serif;
+  letter-spacing: 7px;
+}

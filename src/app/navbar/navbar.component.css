@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Titillium+Web:ital,wght@1,200&display=swap');
 
 *{
-  font-family: 'Heebo', sans-serif;
-  font-size: 16px;
+  font-family: 'Mukta', sans-serif;
+  font-size: 18px;
 }
 .example-spacer {
   flex: 1 1 auto;
@@ -12,13 +12,12 @@
   justify-content: right;
   }
 mat-toolbar{
-  background-color: #0d8ea1;
+  background-color:black;
   color: white;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 a:hover{
-  background-color:#0d8ea1;
-  color: white;
-
+  background-color:black;
+  color: #F40009;
 
 }

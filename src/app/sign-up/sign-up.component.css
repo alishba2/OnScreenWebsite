@@ -1,6 +1,5 @@
 .main{
-  /* background-image: url('../../assets/SL-121019-25870-23.jpg'); */
-  background-size: 100% 100%;
+  background-image: url('../../assets/wallpaperflare.com_wallpaper.jpg');
   background-repeat: no-repeat;
   margin: 0px;
   padding: 0px;
@@ -22,11 +21,11 @@
 form{
 
 padding: 50px;
-/* opacity: 80%; */
-box-shadow: rgb(157, 157, 192) 0px 4px 12px;
+opacity: 77%;
 position: relative;
 margin-top: 30px;
 padding-top: 40px;
+background-color: black;
 
 
 }
@@ -40,38 +39,38 @@ padding-top: 40px;
 }
 
 .text-center{
-  color: #0d8ea1;
+  color: white;
   text-align: center;
   margin-left: -100px;
 }
 
 .same{
-  color: #0d8ea1;
+  color: white;
 }
 .btnSubmit{
-background-color: #0d8ea1;
+background-color: #E50914;
 width: 320px;
-color: white;
+color: black;
 
 
 }
 .btnSubmit:hover{
-background-color:  #0d8ea1;
-box-shadow: #0d8ea1 1px;
+background-color:  #E50914;
+box-shadow: #E50914 1px;
 }
 
 .endText{
-  color: #0d8ea1;
+  color: white;
 
 }
 .link{
 
 text-decoration: none;
-color: #0d8ea1;
+color: white;
 
 }
 a:link{
-color: #0d8ea1;
+color: #E50914;
 margin-bottom: 5px;
 font-weight: bold;
 }

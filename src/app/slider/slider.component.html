@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <ngb-carousel
+  class="no-indicators"
+	#carousel
+	[interval]="1000"
+	[pauseOnHover]="pauseOnHover"
+	[pauseOnFocus]="pauseOnFocus"
+	(slide)="onSlide($event)"
+>
+	<ng-template ngbSlide *ngFor="let img of images; index as i">
+
+
+			<div class="picsum-img-wrapper">
+				<img class="imghw" [src]="img" alt="My image {{i + 1}} description" />
+
+
+			</div>
+
+	</ng-template>
+</ngb-carousel>
+
+<hr />
+</body>
+</html>
+

@@ -4,7 +4,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
-import { MoviesComponent } from './movies/movies.component';
+// import { MoviesComponent } from './movies/movies.component';
 import { VideosComponent } from './videos/videos.component';
 import { SongsComponent } from './songs/songs.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -19,6 +19,9 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import { MatCarouselModule } from 'ng-mat-carousel';
 import { NextDirective } from './directive/next.directive';
 import { PrevDirective } from './directive/prev.directive';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { MoviesComponent } from './movies/movies.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -26,14 +29,16 @@ import { PrevDirective } from './directive/prev.directive';
     AppComponent,
     LoginComponent,
     SignUpComponent,
-    MoviesComponent,
+
     VideosComponent,
     SongsComponent,
     NavbarComponent,
     ListComponent,
     SliderComponent,
+    PrevDirective,
     NextDirective,
-    PrevDirective
+    MoviesComponent,
+    FooterComponent
 
   ],
   imports: [
@@ -45,7 +50,12 @@ import { PrevDirective } from './directive/prev.directive';
     CommonModule,
     MatButtonModule,
     MatSidenavModule,
-    MatCarouselModule.forRoot()
+    MatCarouselModule.forRoot(),
+    // FormsModule,
+
+
+    NgbModule
+
 
   ],
   bootstrap: [AppComponent]
