@@ -17,6 +17,8 @@ import { CommonModule } from '@angular/common';
 import { ListComponent } from './list/list.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { MatCarouselModule } from 'ng-mat-carousel';
+import { NextDirective } from './directive/next.directive';
+import { PrevDirective } from './directive/prev.directive';
 
 
 @NgModule({
@@ -29,7 +31,9 @@ import { MatCarouselModule } from 'ng-mat-carousel';
     SongsComponent,
     NavbarComponent,
     ListComponent,
-    SliderComponent
+    SliderComponent,
+    NextDirective,
+    PrevDirective
 
   ],
   imports: [
