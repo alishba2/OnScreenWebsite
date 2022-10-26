@@ -1,21 +1,18 @@
-.imghw{
+.imghw {
   height: 600px;
   width: 1600px;
 }
 
-*{
+* {
   background-color: black;
 
 }
-.active{
-  display: none;
-}
-.carousel-indicators {
+
+.active {
   display: none;
 }
 
-/* .carousel-indicators {
-  bottom: auto;
-  top: 105%;
-} */
+.carousel-indicators {
+  display: none;
+}
 

@@ -1,12 +1,10 @@
-.main{
+.main {
   background-image: url('../../assets/wallpaperflare.com_wallpaper.jpg');
   background-repeat: no-repeat;
-  margin: 0px;
-  padding: 0px;
   height: auto;
 }
 
-.container{
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,59 +16,55 @@
 
 }
 
-form{
-
-padding: 50px;
-opacity: 77%;
-position: relative;
-margin-top: 30px;
-padding-top: 40px;
-background-color: black;
-
-
+form {
+  padding: 50px;
+  opacity: 77%;
+  position: relative;
+  margin-top: 30px;
+  padding-top: 40px;
+  background-color: black;
 }
 
 .form-control {
   width: 100%;
 }
 
-.heading{
+.heading {
   margin-left: 6rem;
 }
 
-.text-center{
+.text-center {
   color: white;
   text-align: center;
   margin-left: -100px;
 }
 
-.same{
+.same {
   color: white;
 }
-.btnSubmit{
-background-color: #E50914;
-width: 320px;
-color: black;
 
-
-}
-.btnSubmit:hover{
-background-color:  #E50914;
-box-shadow: #E50914 1px;
+.btnSubmit {
+  background-color: #E50914;
+  width: 320px;
+  color: black;
 }
 
-.endText{
+.btnSubmit:hover {
+  background-color: #E50914;
+  box-shadow: #E50914 1px;
+}
+
+.endText {
   color: white;
-
 }
-.link{
 
-text-decoration: none;
-color: white;
-
+.link {
+  text-decoration: none;
+  color: white;
 }
-a:link{
-color: #E50914;
-margin-bottom: 5px;
-font-weight: bold;
+
+a:link {
+  color: #E50914;
+  margin-bottom: 5px;
+  font-weight: bold;
 }

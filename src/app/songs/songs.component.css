@@ -33,19 +33,19 @@
   left: 22px;
   top: 27%;
   transform: translate(-50%, -50%);
-  margin-top: 3rem
+  margin-top: 2rem
 }
 
 .next {
   position: absolute;
   right: -5px;
   top: 38%;
-
+  margin-top: 0rem;
 }
 
 img{
-  height: 13rem;
-  width: 10rem;
+  height: 12rem;
+  width: 20rem;
 }
 section{
   background-color: black;

@@ -1,23 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Titillium+Web:ital,wght@1,200&display=swap');
 
-*{
+
+* {
   font-family: 'Mukta', sans-serif;
   font-size: 18px;
 }
+
 .example-spacer {
   flex: 1 1 auto;
 }
+
 .container {
   display: flex;
   justify-content: right;
-  }
-mat-toolbar{
-  background-color:black;
+}
+
+mat-toolbar {
+  background-color: black;
   color: white;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  position: absolute;
+  z-index: 1;
+  background: transparent;
+  background: #00000094;
+  position: fixed;
 }
-a:hover{
-  background-color:black;
-  color: #F40009;
+
+a:hover {
+  /* background-color: black; */
+  color: #ff0008;
 
 }
