@@ -17,7 +17,7 @@ import { SliderComponent } from './slider/slider.component';
 import { CommonModule } from '@angular/common';
 import { ListComponent } from './list/list.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
-import { MatCarouselModule } from '@ngmodule/material-carousel';
+// import { MatCarouselModule } from '@ngmodule/material-carousel';
 
 
 @NgModule({
