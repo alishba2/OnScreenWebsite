@@ -22,6 +22,7 @@ import { PrevDirective } from './directive/prev.directive';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MoviesComponent } from './movies/movies.component';
 import { FooterComponent } from './footer/footer.component';
+import { ShowVideoComponent } from './show-video/show-video.component';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 
@@ -38,7 +39,8 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
     PrevDirective,
     NextDirective,
     MoviesComponent,
-    FooterComponent
+    FooterComponent,
+    ShowVideoComponent
 
   ],
   imports: [

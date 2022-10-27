@@ -10,13 +10,14 @@ import { AuthGuard } from './auth/authguard';
 import { SliderComponent } from './slider/slider.component';
 import { MoviesComponent } from './movies/movies.component';
 import { FooterComponent } from './footer/footer.component';
+import { ShowVideoComponent } from './show-video/show-video.component';
 
 
 const routes: Routes = [
 
   {path:'login' , component:LoginComponent},
   {path:'signup' , component:SignUpComponent},
-
+  {path:'showVideo' , component:ShowVideoComponent},
 
   {path:'', component:ListComponent , children:[
     {path:'navbar' , component:NavbarComponent},
@@ -24,7 +25,8 @@ const routes: Routes = [
     {path:'videos', component:SongsComponent},
     {path:'slider' , component:SliderComponent},
     {path:'movies', component:MoviesComponent},
-    {path:'footer', component:FooterComponent}
+    {path:'footer', component:FooterComponent},
+
 
 
 
