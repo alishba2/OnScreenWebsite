@@ -17,7 +17,7 @@ const routes: Routes = [
 
   {path:'login' , component:LoginComponent},
   {path:'signup' , component:SignUpComponent},
-
+  {path:'showVideo' , component:ShowVideoComponent},
 
   {path:'', component:ListComponent , children:[
     {path:'navbar' , component:NavbarComponent},
@@ -26,7 +26,7 @@ const routes: Routes = [
     {path:'slider' , component:SliderComponent},
     {path:'movies', component:MoviesComponent},
     {path:'footer', component:FooterComponent},
-    {path:'showVideo' , component:ShowVideoComponent}
+
 
 
 
