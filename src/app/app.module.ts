@@ -41,7 +41,6 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
     MoviesComponent,
     FooterComponent,
     ShowVideoComponent
-
   ],
   imports: [
     BrowserModule,
@@ -54,12 +53,7 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
     MatSidenavModule,
     MDBBootstrapModule.forRoot(),
     MatCarouselModule.forRoot(),
-    // FormsModule,
-
-
     NgbModule
-
-
   ],
   bootstrap: [AppComponent]
 })

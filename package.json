@@ -25,6 +25,7 @@
     "@ngmodule/material-carousel": "^0.6.0",
     "@popperjs/core": "^2.10.2",
     "angular-bootstrap-md": "^14.0.0",
+    "angular-font-awesome": "^3.1.2",
     "bootstrap": "^5.2.0",
     "mdbootstrap": "^4.20.0",
     "ng-mat-carousel": "^0.11.1",
