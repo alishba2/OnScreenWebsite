@@ -22,6 +22,7 @@ import { PrevDirective } from './directive/prev.directive';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MoviesComponent } from './movies/movies.component';
 import { FooterComponent } from './footer/footer.component';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 
 @NgModule({
@@ -29,7 +30,6 @@ import { FooterComponent } from './footer/footer.component';
     AppComponent,
     LoginComponent,
     SignUpComponent,
-
     VideosComponent,
     SongsComponent,
     NavbarComponent,
@@ -50,6 +50,7 @@ import { FooterComponent } from './footer/footer.component';
     CommonModule,
     MatButtonModule,
     MatSidenavModule,
+    MDBBootstrapModule.forRoot(),
     MatCarouselModule.forRoot(),
     // FormsModule,
 

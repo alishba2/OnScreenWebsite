@@ -1,18 +1,4 @@
-.imghw {
-  height: 600px;
-  width: 1600px;
-}
-
 * {
   background-color: black;
-
-}
-
-.active {
-  display: none;
-}
-
-.carousel-indicators {
-  display: none;
 }
 
