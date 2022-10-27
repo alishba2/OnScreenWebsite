@@ -35,27 +35,33 @@
   left: 22px;
   top: 27%;
   transform: translate(-50%, -50%);
-  margin-top: 3rem
+  margin-top: 2rem
 }
 
 .next {
   position: absolute;
   right: -5px;
   top: 38%;
-
+  margin-top: 0rem;
 }
 
-img{
-  height: 13rem;
-  width: 10rem;
+img {
+  height: 12rem;
+  width: 20rem;
 }
-section{
+
+section {
   background-color: black;
 }
-.title{
+
+.title {
   color: white;
-  margin:50px;
+  margin: 50px;
   font-size: 25px;
   font-family: 'Mukta', sans-serif;
   letter-spacing: 7px;
+}
+
+.material-icons {
+  color: white;
 }
