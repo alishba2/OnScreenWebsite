@@ -1,13 +1,22 @@
-<div class="nav">
-  <mat-toolbar>
+<div>
+  <mat-toolbar [class.header_change]="header_change">
     <span><img src="../../assets/MicrosoftTeams-image.png" alt="" height="30px"></span>
     <span class="menu-spacer"></span>
     <div fxShow="true" fxHide.lt-md="true" class="container">
       <a mat-button routerLink="/movies" routerLinkActive="list-item-active"> Movies </a>
       <a mat-button routerLink="/songs"> Songs </a>
       <a mat-button routerLink="/videos"> Videos </a>
-
     </div>
+
+    <div class="container d-flex">
+      <!-- <input type="text" class="form-control" placeholder="Search" aria-label="Username" aria-describedby="basic-addon1"> --->
+      <!-- <mat-icon>search</mat-icon> -->
+       
+          <input type="search" id="form1" class="form-control" />
+          <label class="form-label mt-1 ml-1" >Search</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <mat-icon class="notification">notifications_none</mat-icon>
+    </div>
+   
   </mat-toolbar>
 </div>
 <slider></slider>

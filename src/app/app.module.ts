@@ -10,7 +10,6 @@ import { SongsComponent } from './songs/songs.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatToolbarModule} from '@angular/material/toolbar';
-import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import { SliderComponent } from './slider/slider.component';
 import { CommonModule } from '@angular/common';
@@ -24,10 +23,10 @@ import { MoviesComponent } from './movies/movies.component';
 import { FooterComponent } from './footer/footer.component';
 import { ShowVideoComponent } from './show-video/show-video.component';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
-
 import { ShowMovieComponent } from './show-movie/show-movie.component';
-
-
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatSelectModule} from '@angular/material/select';
+import {MatIconModule} from '@angular/material/icon';
 
 
 @NgModule({
@@ -47,7 +46,6 @@ import { ShowMovieComponent } from './show-movie/show-movie.component';
     ShowVideoComponent,
     ShowMovieComponent,
     ShowVideoComponent
-
   ],
   imports: [
     BrowserModule,
@@ -55,12 +53,15 @@ import { ShowMovieComponent } from './show-movie/show-movie.component';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatIconModule,
+    MatFormFieldModule,
+    MatSelectModule,
     CommonModule,
     MatButtonModule,
     MatSidenavModule,
     MDBBootstrapModule.forRoot(),
     MatCarouselModule.forRoot(),
-    NgbModule
+    NgbModule,
+    
   ],
   bootstrap: [AppComponent]
 })
