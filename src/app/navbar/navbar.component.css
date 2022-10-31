@@ -6,31 +6,33 @@
   font-size: 18px;
 }
 
+
 .example-spacer {
   flex: 1 1 auto;
 }
 
 .container {
   display: flex;
-  justify-content: right;
+  margin-left: 20px;
 }
 
 mat-toolbar {
   background-color: black;
-  color: white;
+
+  color: rgb(179, 167, 167);
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  position: absolute;
   z-index: 1;
   background: transparent;
-  background: #00000094;
-  position: fixed;
+  background: black;
+  position: relative;
 }
 
 a:hover {
-  /* background-color: black; */
-  color: #ff0008;
+
+  color: rgb(179, 167, 167);
 
 }
+
 .icon{
   background: none;
   padding-top: 7px;
@@ -40,5 +42,95 @@ a:hover {
   color: white;
 
 
+}
+
+.header_change{
+  position:fixed;
+  background:rgb(0,0,0,0.4);
+  box-shadow: 0;
+  border: none;
 
 }
+
+.form-control{
+  background-color: black;
+  width: 12rem;
+  border: none;
+  color:white;
+
+}
+.form-control:active{
+  border: 1 px solid white !important;
+
+}
+/* input[type=text]:focus {
+  border: 3px solid #555 !important;
+} */
+
+.notification{
+  width: 0;
+
+}
+.Icon{
+  color: white;
+}
+.navEnd{
+  display: flex;
+  float: right;
+  margin-left: 350px;
+}
+.usrname{
+  margin-right: 20px;
+}
+.iconimg{
+  height: 38px;
+  border-radius: 3px;
+  padding: -10px;
+  margin-right: -7px;
+
+}
+
+/* .drpdwn{
+
+  border-bottom: 1px solid gray;
+
+} */
+::ng-deep .custom-class {
+
+  border-radius: 0px !important;
+  background-color:  black!important;
+  color: rgb(179, 167, 167) !important;
+  border: 1px solid black !important;
+  width: 200px;
+  text-align: center !important;
+
+
+
+
+
+
+  /* border: 2px solid #F7C833;
+  border-right: 2px solid #F89329;
+  border-bottom: 2px solid #F89329; */
+
+  /* transition: opacity 0.2s, visibility 0.2s; */
+}
+
+ mat-menu-item{
+
+  border-bottom: 1px solid black;
+  color: rgb(179, 167, 167) !important;
+
+}
+  ::ng-deep .items{
+    margin-right: 50px !important;
+    text-align: center;
+
+  border-bottom: 1px solid black;
+  color: rgb(179, 167, 167) !important;
+
+
+
+
+  }
+

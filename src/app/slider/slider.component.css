@@ -109,9 +109,8 @@ margin-bottom: -6px !important;
   background: none;
   padding-top: 8.6px;
   font-size: 20px;
-
-
 }
+
 .sr-only{
   visibility: hidden;
 }
@@ -196,10 +195,18 @@ margin-bottom: -6px !important;
 .icon{
   background: none;
   padding-top: 7px;
+  font-size: 50px;
+  /* padding-right:20px;
+  padding-left: -10px; */
+
+
+
+}
+.Icon{
+  background: none;
   font-size: 20px;
-  padding-right:20px;
-  padding-left: -10px;
 
-
-
+}
+.carousel-control-next-icon{
+  visibility: hidden;
 }
