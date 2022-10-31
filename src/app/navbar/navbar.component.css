@@ -13,11 +13,13 @@
 
 .container {
   display: flex;
+  margin-left: 20px;
 }
 
 mat-toolbar {
   background-color: black;
-  color: white;
+
+  color: rgb(179, 167, 167);
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   z-index: 1;
   background: transparent;
@@ -26,8 +28,19 @@ mat-toolbar {
 }
 
 a:hover {
-  /* background-color: black; */
-  color: #ff0008;
+
+  color: rgb(179, 167, 167);
+
+}
+
+.icon{
+  background: none;
+  padding-top: 7px;
+  font-size: 20px;
+  padding-right:20px;
+  padding-left: -10px;
+  color: white;
+
 
 }
 
@@ -44,8 +57,56 @@ a:hover {
   width: 12rem;
   border: none;
   color:white;
+
+}
+.form-control:active{
+  border: 1 px solid white !important;
+
+.notification{
+  width: 0;
 }
 
-/* .notification{
-  width: 0;
+/* .drpdwn{
+
+  border-bottom: 1px solid gray;
+
 } */
+::ng-deep .custom-class {
+
+  border-radius: 0px !important;
+  background-color:  black!important;
+  color: rgb(179, 167, 167) !important;
+  border: 1px solid black !important;
+  width: 200px;
+  text-align: center !important;
+
+
+
+
+
+
+  /* border: 2px solid #F7C833;
+  border-right: 2px solid #F89329;
+  border-bottom: 2px solid #F89329; */
+
+  /* transition: opacity 0.2s, visibility 0.2s; */
+}
+
+ mat-menu-item{
+
+  border-bottom: 1px solid black;
+  color: rgb(179, 167, 167) !important;
+
+}
+  ::ng-deep .items{
+    margin-right: 50px !important;
+    text-align: center;
+
+  border-bottom: 1px solid black;
+  color: rgb(179, 167, 167) !important;
+
+
+
+
+  }
+

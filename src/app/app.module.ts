@@ -27,7 +27,8 @@ import { ShowMovieComponent } from './show-movie/show-movie.component';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatSelectModule} from '@angular/material/select';
 import {MatIconModule} from '@angular/material/icon';
-
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import {MatMenuModule} from '@angular/material/menu';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,7 @@ import {MatIconModule} from '@angular/material/icon';
     FooterComponent,
     ShowVideoComponent,
     ShowMovieComponent,
-    ShowVideoComponent
+    ShowVideoComponent,
   ],
   imports: [
     BrowserModule,
@@ -61,7 +62,9 @@ import {MatIconModule} from '@angular/material/icon';
     MDBBootstrapModule.forRoot(),
     MatCarouselModule.forRoot(),
     NgbModule,
-    
+    FontAwesomeModule,
+    MatMenuModule
+
   ],
   bootstrap: [AppComponent]
 })

@@ -2,23 +2,27 @@
   <div class="container">
     <form >
       <div class="mb-3 mt-3 w-50 ran">
-        <h2 class="login"><b>Login</b></h2>
-        <label for="email"><b>Email</b></label>
-        <input type="email" class="form-control" id="email" formControlName="email" placeholder="Enter email"
+        <h2 class="login"><b>Sign In</b></h2>
+        <!-- <label for="email"><b>Email</b></label> -->
+        <input type="email" class="form-control" id="email" formControlName="email" placeholder="Email"
           name="email">
           <!-- <span class="text-danger" *ngIf="loginForm.controls['email'].dirty && loginForm.hasError('required','email')"> Email id is required </span> -->
       </div>
       <div class="mb-3 mt-3 w-50 ran">
-        <label for="password"><b>Password</b></label>
-        <input type="password" class="form-control"  id="password" formControlName="password" placeholder="Enter password"
+        <!-- <label for="password"><b>Password</b></label> -->
+        <input type="password" class="form-control"  id="password" formControlName="password" placeholder="Password"
           name="password">
           <!-- <span class="text-danger" *ngIf="loginForm.controls['password'].dirty && loginForm.hasError('required','password')"> Password is required </span> -->
       </div>
-      <button type="submit" class="btn btn-primary btnSubmit">Submit</button>
+      <button type="submit" class="btn btn-primary btnSubmit">Sign In</button>
+      <div class="endText etex">
+        <input class="checkbox" type="checkbox"> Remember Me
+        <span class="help">Need help?</span>
+      </div>
 
-      <div class="endText">
+      <div class="endText end">
         Don't have an account?
-        <a routerLink="/signup" class="btn  ran">Register Here</a>
+        <a routerLink="/signup" class="btn  ran">Sign up now</a>
       </div>
     </form>
   </div>

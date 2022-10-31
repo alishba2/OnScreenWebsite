@@ -1,7 +1,12 @@
 .main {
+  /* background-color:bisque; */
   background-image: url('../../assets/wallpaperflare.com_wallpaper.jpg');
   background-repeat: no-repeat;
-  height: auto;
+
+  background-size: 100% 100%;
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
 }
 
 .container {
@@ -17,7 +22,7 @@
 }
 
 form {
-  padding: 50px;
+  padding: 60px;
   opacity: 77%;
   position: relative;
   margin-top: 30px;
@@ -27,16 +32,25 @@ form {
 
 .form-control {
   width: 100%;
+  border-radius: 0%;
+  height: 47px;
+  background-color: rgb(82, 79, 79);
+  border: 1px solid rgb(82, 79, 79);
 }
 
 .heading {
-  margin-left: 6rem;
+
+margin-right: 120px;
+font-size: 30px;
+
 }
 
 .text-center {
   color: white;
   text-align: center;
   margin-left: -100px;
+  margin-bottom: 40px;
+  margin-top: 5px;
 }
 
 .same {
@@ -46,7 +60,8 @@ form {
 .btnSubmit {
   background-color: #E50914;
   width: 320px;
-  color: black;
+  color: white;
+  border-radius: 0%;
 }
 
 .btnSubmit:hover {
@@ -55,16 +70,14 @@ form {
 }
 
 .endText {
-  color: white;
+  color:  rgb(156, 154, 154);
+
+
 }
 
 .link {
   text-decoration: none;
-  color: white;
+
 }
 
-a:link {
-  color: #E50914;
-  margin-bottom: 5px;
-  font-weight: bold;
-}
+
