@@ -23,14 +23,14 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MoviesComponent } from './movies/movies.component';
 import { FooterComponent } from './footer/footer.component';
 import { ShowVideoComponent } from './show-video/show-video.component';
-
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
+import { ShowMovieComponent } from './show-movie/show-movie.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     SignUpComponent,
-
     VideosComponent,
     SongsComponent,
     NavbarComponent,
@@ -40,7 +40,8 @@ import { ShowVideoComponent } from './show-video/show-video.component';
     NextDirective,
     MoviesComponent,
     FooterComponent,
-    ShowVideoComponent
+    ShowVideoComponent,
+    ShowMovieComponent
 
   ],
   imports: [
@@ -52,6 +53,7 @@ import { ShowVideoComponent } from './show-video/show-video.component';
     CommonModule,
     MatButtonModule,
     MatSidenavModule,
+    MDBBootstrapModule.forRoot(),
     MatCarouselModule.forRoot(),
     // FormsModule,
 

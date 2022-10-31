@@ -90,5 +90,76 @@
   font-size: 20px;
 
 
+}
+.sr-only{
+  visibility: hidden;
+}
+.carousel-caption{
+  background:none;
+  text-align: left;
+  /* background-color: aliceblue; */
+  left: 5%;
+  padding-bottom: 70px;
+
+
+
+}
+.sliderText{
+  background: none;
+  font-size: 16px;
+  padding-top: 10px;
+  margin-left: 35px;
+
+
+}
+.title{
+  color: white;
+  margin:50px;
+  font-size: 30px;
+  font-family: 'Mukta', sans-serif;
+  letter-spacing: 2px;
+
+}
+
+
+
+.tabs{
+  background:none;
+  margin-top: 20px;
+  margin-left: 35px;
+}
+.tabs span{
+  /* background: none; */
+  margin: 5px;
+  opacity: 80%;
+}
+
+
+.tab{
+  background-color: white;
+  color: black;
+  padding: 5px 7px;
+  font-size: 12px;
+  border-radius: 3px;
+  margin-top: 4px;
+  padding-right: 20px;
+
+}
+.type{
+  background-color: rgb(187, 187, 59);
+  color: black;
+  padding: 5px 25px 5px 10px;
+  font-weight: bold;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  border-radius: 3px;
+  margin-top: 100px !important;
+}
+
+.icon{
+  background: none;
+  padding-top: 8.6px;
+  font-size: 20px;
+
+
 
 }

@@ -11,6 +11,7 @@ import { SliderComponent } from './slider/slider.component';
 import { MoviesComponent } from './movies/movies.component';
 import { FooterComponent } from './footer/footer.component';
 import { ShowVideoComponent } from './show-video/show-video.component';
+import { ShowMovieComponent } from './show-movie/show-movie.component';
 
 
 const routes: Routes = [
@@ -18,6 +19,7 @@ const routes: Routes = [
   {path:'login' , component:LoginComponent},
   {path:'signup' , component:SignUpComponent},
   {path:'showVideo' , component:ShowVideoComponent},
+  {path: 'showMovie' , component:ShowMovieComponent},
 
   {path:'', component:ListComponent , children:[
     {path:'navbar' , component:NavbarComponent},
