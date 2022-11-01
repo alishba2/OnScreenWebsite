@@ -33,7 +33,9 @@
   left: 22px;
   top: 27%;
   transform: translate(-50%, -50%);
-  margin-top: 2rem
+  margin-top: 2rem;
+  font-size: 25px;
+
 }
 
 .next {
@@ -41,6 +43,8 @@
   right: -5px;
   top: 38%;
   margin-top: 0rem;
+  font-size: 25px;
+
 }
 
 img{

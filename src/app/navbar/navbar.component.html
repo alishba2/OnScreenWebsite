@@ -9,17 +9,25 @@
       <a mat-button routerLink="/videos"> Videos </a>
       <a mat-button routerLink="/videos"> Recently Added </a>
       <a mat-button routerLink="/videos"> My List </a>
-
+     
     </div>
 
     <div class="container navEnd">
-      <!-- <input type="text" class="form-control" placeholder="Search" aria-label="Username" aria-describedby="basic-addon1"> --->
-      <!-- <mat-icon>search</mat-icon> -->
+      
+      <!-- <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Assignee</mat-label>
+        <input type="text" matInput [formControl]="myControl" [matAutocomplete]="auto">
+        <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn">
+          <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+            {{option.name}}
+          </mat-option>
+        </mat-autocomplete>
+      </mat-form-field> -->
 
           <input type="search" id="form1" class="form-control" />
-          <fa-icon class="Icon" [icon]="search"></fa-icon>
-          <span class="usrname">KIDS</span>
-          <span class="usrname">DVD</span>
+          <fa-icon class="Icon"  [icon]="search"></fa-icon>
+          <span class="username">KIDS</span>
+          <span class="username">DVD</span>
 
           <fa-icon class="Icon" [icon]="bell"></fa-icon>
           <img class="iconimg" src="../../assets/2170.jpg" alt="" >
@@ -29,8 +37,6 @@
             <button class="items"  mat-menu-item>Help</button>
             <button class="items"  mat-menu-item>Logout</button>
           </mat-menu>
-
-          <!-- <mat-icon class="notification">notifications_none</mat-icon> -->
 
     </div>
 

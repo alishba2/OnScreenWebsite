@@ -35,7 +35,9 @@
   left: 22px;
   top: 27%;
   transform: translate(-50%, -50%);
-  margin-top: 2rem
+  margin-top: 2rem;
+  font-size: 25px;
+  margin-right: 2rem;
 }
 
 .next {
@@ -43,6 +45,8 @@
   right: -5px;
   top: 38%;
   margin-top: 0rem;
+  font-size: 25px;
+
 }
 
 img {
@@ -63,5 +67,9 @@ section {
 }
 
 .material-icons {
+  color: white;
+}
+
+.fa fa-arrow-right{
   color: white;
 }

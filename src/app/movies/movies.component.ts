@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import {faArrowRight} from '@fortawesome/free-solid-svg-icons'
+import {faArrowLeft} from '@fortawesome/free-solid-svg-icons'
 
 @Component({
   selector: 'movies',
@@ -7,9 +10,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MoviesComponent implements OnInit {
 
-  constructor() { }
-
+  constructor(private router: Router) { }
+  right = faArrowRight;
+  left = faArrowLeft;
   ngOnInit(): void {
   }
 
+  change(){
+   this.router.navigateByUrl('/showVideo');
+  }
 }

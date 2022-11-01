@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {faArrowRight} from '@fortawesome/free-solid-svg-icons'
+import {faArrowLeft} from '@fortawesome/free-solid-svg-icons'
 
 @Component({
   selector: 'songs',
@@ -8,7 +10,8 @@ import { Component, OnInit } from '@angular/core';
 export class SongsComponent implements OnInit {
 
   constructor() { }
-
+  right = faArrowRight;
+  left = faArrowLeft;
   ngOnInit(): void {
   }
 

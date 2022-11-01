@@ -18,7 +18,6 @@
 
 mat-toolbar {
   background-color: black;
-
   color: rgb(179, 167, 167);
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   z-index: 1;
@@ -28,9 +27,7 @@ mat-toolbar {
 }
 
 a:hover {
-
   color: rgb(179, 167, 167);
-
 }
 
 .icon{
@@ -40,8 +37,6 @@ a:hover {
   padding-right:20px;
   padding-left: -10px;
   color: white;
-
-
 }
 
 .header_change{
@@ -49,7 +44,6 @@ a:hover {
   background:rgb(0,0,0,0.4);
   box-shadow: 0;
   border: none;
-
 }
 
 .form-control{
@@ -57,20 +51,40 @@ a:hover {
   width: 12rem;
   border: none;
   color:white;
-
+  border: 1px solid white;
+  margin-right: 1rem;
 }
+
 .form-control:active{
   border: 1 px solid white !important;
+}
 
 .notification{
   width: 0;
 }
 
-/* .drpdwn{
+ .Icon{
+  color: white;
+} 
 
-  border-bottom: 1px solid gray;
+.navEnd{
+  display: flex;
+  float: right;
+  margin-left: 8rem;
+}
+
+.username{
+  margin-right: 20px;
+}
+
+.iconimg{
+  height: 38px;
+  border-radius: 3px;
+  padding: -10px;
+  margin-right: -7px;
 
 } */
+
 ::ng-deep .custom-class {
 
   border-radius: 0px !important;
@@ -98,15 +112,21 @@ a:hover {
   color: rgb(179, 167, 167) !important;
 
 }
-  ::ng-deep .items{
+::ng-deep .items{
     margin-right: 50px !important;
     text-align: center;
 
   border-bottom: 1px solid black;
   color: rgb(179, 167, 167) !important;
 
+}
 
+/* .example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
 
-
-  }
-
+ .example-full-width {
+  width: 100%;
+} */
