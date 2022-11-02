@@ -210,3 +210,12 @@ margin-bottom: -6px !important;
 .carousel-control-next-icon{
   visibility: hidden;
 }
+
+
+::ng-deep.carousel-control-prev-icon{
+  display: none;
+}
+
+::ng-deep.carousel-control-next-icon{
+  display: none;
+}

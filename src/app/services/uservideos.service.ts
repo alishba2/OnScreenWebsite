@@ -8,9 +8,11 @@ export class UservideosService {
 
   constructor(private http: HttpClient) { }
 
+  get_videos = "http://localhost:8000/videos";
+  
   getVideos(){
 
-    return this.http.get("http://localhost:8000/getVideos");
+    return this.http.get(this.get_videos);
 
   }
 

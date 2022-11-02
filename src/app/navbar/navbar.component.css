@@ -70,7 +70,13 @@ a:hover {
 .navEnd{
   display: flex;
   float: right;
-  margin-left: 8rem;
+  margin-left: 11rem;
+  margin-top: 1rem;
+}
+
+.KIDS{
+  margin-right: 2rem;
+  margin-left: 1rem;
 }
 
 .username{
@@ -93,17 +99,6 @@ a:hover {
   border: 1px solid black !important;
   width: 200px;
   text-align: center !important;
-
-
-
-
-
-
-  /* border: 2px solid #F7C833;
-  border-right: 2px solid #F89329;
-  border-bottom: 2px solid #F89329; */
-
-  /* transition: opacity 0.2s, visibility 0.2s; */
 }
 
  mat-menu-item{
@@ -130,3 +125,24 @@ a:hover {
  .example-full-width {
   width: 100%;
 } */
+
+input[type=text] {
+  width: 100px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: black;
+  /* background-image: url("../../assets/Capture.PNG"); */
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 0px 12px 0px 0px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  margin-right: 1rem;
+  color: white;
+}
+
+input[type=text]:focus {
+  width: 100%;
+}

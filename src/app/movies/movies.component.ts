@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import {faArrowRight} from '@fortawesome/free-solid-svg-icons'
-import {faArrowLeft} from '@fortawesome/free-solid-svg-icons'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
+import { UserimagesService } from '../services/userimages.service';
 
 @Component({
   selector: 'movies',
@@ -9,14 +10,27 @@ import {faArrowLeft} from '@fortawesome/free-solid-svg-icons'
   styleUrls: ['./movies.component.css']
 })
 export class MoviesComponent implements OnInit {
-
-  constructor(private router: Router) { }
   right = faArrowRight;
   left = faArrowLeft;
+  imagist: any;
+
+  constructor(private router: Router, private Userimages: UserimagesService) { }
+
+
   ngOnInit(): void {
+    this.getData()
   }
 
-  change(){
-   this.router.navigateByUrl('/showVideo');
+  getData() {
+    this.Userimages.getData().subscribe((res) => {
+      this.imagist = res;
+      console.log(res)
+    })
   }
+
+  change() {
+    this.router.navigateByUrl('/showVideo');
+  }
+
+  
 }

@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { environment } from 'src/environments/environment';
+import { Images } from 'src/userModels/userImages';
 
 @Injectable({
   providedIn: 'root'
@@ -15,4 +16,5 @@ export class UserimagesService {
   getData() {
     return this.http.get(this.url);
   }
+  
 }
