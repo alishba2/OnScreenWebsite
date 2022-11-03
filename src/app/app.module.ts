@@ -32,7 +32,7 @@ import {MatMenuModule} from '@angular/material/menu';
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { HttpClientModule} from '@angular/common/http';
-
+import { AuthserviceService } from './services/auth.services';
 @NgModule({
   declarations: [
     AppComponent,
@@ -50,6 +50,7 @@ import { HttpClientModule} from '@angular/common/http';
     ShowVideoComponent,
     ShowMovieComponent,
     ShowVideoComponent,
+    
   ],
   imports: [
     BrowserModule,
@@ -70,7 +71,8 @@ import { HttpClientModule} from '@angular/common/http';
     MatAutocompleteModule,
     FormsModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+
   ],
   bootstrap: [AppComponent]
 })

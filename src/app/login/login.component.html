@@ -1,6 +1,6 @@
 <div class="main">
   <div class="container">
-    <form >
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
       <div class="mb-3 mt-3 w-50 ran">
         <h2 class="login"><b>Sign In</b></h2>
         <!-- <label for="email"><b>Email</b></label> -->

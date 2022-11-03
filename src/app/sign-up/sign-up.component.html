@@ -1,29 +1,36 @@
 <div class="main">
   <div class="container">
-      <form>
+
+    <form [formGroup]="userdetails" (ngSubmit)="SaveData()">
       <h2 class="text-center"><span class="heading">Sign In</span></h2>
+
       <div class="mb-3 mt-3 same">
-
-        <input type="name" class="form-control" id="name" formControlName="name" placeholder="Enter name" name="Username">
+        <label for="name"></label>
+        <input type="name" class="form-control" id="name" formControlName="name" placeholder="Enter name"
+          name="name">
       </div>
-      <div class="mb-3 mt-3  same">
 
-        <input type="email" class="form-control" id="email" formControlName="email" placeholder="Email"
-          name="email">
+      <div class="mb-3 mt-3  same">
+        <label for="email"></label>
+        <input type="email" class="form-control" id="email" formControlName="email" placeholder="Email" name="email">
       </div>
 
       <div class="mb-3  same">
-
+        <label for="password"></label>
         <input type="password" class="form-control" id="pwd" formControlName="password" placeholder="Password"
-          name="pswd">
+          name="password">
       </div>
+
       <div class="mb-3">
         <button type="submit" class="btn btnSubmit">Submit</button>
       </div>
-      <div class="endText">
 
-        <a class="link" routerLink="/login" class="btn " style="color: rgb(156, 154, 154);    margin-top: -14px;"> Already have an account?</a>
+      <div class="endText">
+        <a class="link" routerLink="/login" class="btn " style="color: rgb(156, 154, 154);    margin-top: -14px;">
+          Already have an account?</a>
       </div>
+
     </form>
+
   </div>
 </div>

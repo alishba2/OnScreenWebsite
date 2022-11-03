@@ -15,22 +15,19 @@ import { ShowMovieComponent } from './show-movie/show-movie.component';
 
 
 const routes: Routes = [
-
+  { path: '', component: LoginComponent },
   {path:'login' , component:LoginComponent},
   {path:'signup' , component:SignUpComponent},
-  {path:'showVideo' , component:ShowVideoComponent},
+  {path:'show-video/:id' , component:ShowVideoComponent},
   {path: 'showMovie' , component:ShowMovieComponent},
 
-  {path:'', component:ListComponent , children:[
+  {path:'list', component:ListComponent , children:[
     {path:'navbar' , component:NavbarComponent},
     {path:'songs', component:SongsComponent},
     {path:'videos', component:SongsComponent},
     {path:'slider' , component:SliderComponent},
     {path:'movies', component:MoviesComponent},
     {path:'footer', component:FooterComponent},
-
-
-
 
   ]},
 ];

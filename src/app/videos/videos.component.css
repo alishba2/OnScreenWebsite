@@ -65,3 +65,8 @@ section{
 .material-icons{
   color: white;
 }
+
+.video{
+  height: 12rem;
+  width: 20rem;
+}
