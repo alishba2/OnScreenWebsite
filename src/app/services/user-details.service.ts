@@ -14,11 +14,11 @@ export class UserDetailsService {
   }
   
   postData(data: userDetails) {
-    return this.http.post(this.url +`/signUp`,data);
+    return this.http.post(this.url +'/signUp',data);
   }
 
   loginUser(data: userDetails){
-    return this.http.post(this.url+`/loginUser`,data);
+    return this.http.post(this.url+'/signIn',data);
   }
 
 }

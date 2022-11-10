@@ -1,48 +1,37 @@
 <div>
   <mat-toolbar [class.header_change]="header_change">
-    <span><img src="../../assets/MicrosoftTeams-image.png" alt="" height="30px"></span>
+    <span fxFlex><img src="../../assets/MicrosoftTeams-image.png" alt="" height="30px"/></span>
+    
     <span class="menu-spacer"></span>
     <div fxShow="true" fxHide.lt-md="true" class="container">
       <a mat-button routerLink="/videos">Home </a>
-      <a mat-button routerLink="/movies" routerLinkActive="list-item-active"> Movies </a>
+      <a mat-button routerLink="/movies" routerLinkActive="list-item-active">
+        Movies
+      </a>
       <a mat-button routerLink="/songs"> Songs </a>
       <a mat-button routerLink="/videos"> Videos </a>
       <a mat-button routerLink="/videos"> Recently Added </a>
       <a mat-button routerLink="/videos"> My List </a>
-     
     </div>
 
     <div class="container navEnd">
-      
-      <!-- <mat-form-field class="example-full-width" appearance="fill">
-        <mat-label>Assignee</mat-label>
-        <input type="text" matInput [formControl]="myControl" [matAutocomplete]="auto">
-        <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn">
-          <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
-            {{option.name}}
-          </mat-option>
-        </mat-autocomplete>
-      </mat-form-field> -->
+      <form>
+        <input type="text" name="search" placeholder="Search.." />
+      </form>
+      <span class="KIDS">KIDS</span>
+      <span class="username">DVD</span>
 
-          <!-- <input type="search" id="form1" class="form-control" /> -->
-          <form>
-            <input type="text" name="search" placeholder="Search..">
-          </form>
-          <!-- <fa-icon class="Icon"  [icon]="search"></fa-icon> -->
-          <span class="KIDS">KIDS</span>
-          <span class="username">DVD</span>
-
-          <fa-icon class="Icon" [icon]="bell"></fa-icon>
-          <img class="iconimg" src="../../assets/2170.jpg" alt="" >
-          <button mat-button [matMenuTriggerFor]="menu">  <fa-icon class="Icon" [icon]="Caret"></fa-icon></button>
-          <mat-menu color="primary" #menu="matMenu" class="custom-class">
-            <button class="items" mat-menu-item><span  >Setting</span></button>
-            <button class="items"  mat-menu-item>Help</button>
-            <button class="items" (click)="logOut()" mat-menu-item>Logout</button>
-          </mat-menu>
-
+      <fa-icon class="Icon" [icon]="bell"></fa-icon>
+      <img class="iconimg" src="../../assets/2170.jpg" alt="" />
+      <button mat-button [matMenuTriggerFor]="menu">
+        <fa-icon class="Icon" [icon]="Caret"></fa-icon>
+      </button>
+      <mat-menu color="primary" #menu="matMenu" class="custom-class">
+        <button class="items" mat-menu-item><span>Setting</span></button>
+        <button class="items" mat-menu-item>Help</button>
+        <button class="items" (click)="logOut()" mat-menu-item>Logout</button>
+      </mat-menu>
     </div>
-
   </mat-toolbar>
 </div>
 <slider></slider>

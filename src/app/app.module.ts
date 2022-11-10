@@ -33,6 +33,8 @@ import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { HttpClientModule} from '@angular/common/http';
 import { AuthserviceService } from './services/auth.services';
+import { FlexLayoutModule } from '@angular/flex-layout';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -72,7 +74,7 @@ import { AuthserviceService } from './services/auth.services';
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
-
+    FlexLayoutModule 
   ],
   bootstrap: [AppComponent]
 })

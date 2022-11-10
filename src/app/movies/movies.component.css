@@ -73,3 +73,8 @@ section {
 .fa fa-arrow-right{
   color: white;
 }
+
+.video{
+  height: 12rem;
+  width: 20rem;
+}

@@ -5,14 +5,13 @@
         </div>
         <div class="slider-wrap">
             <div class="slider-main">
-                <table class="table">
-                    <thead></thead>
+                <table class="table ">
                     <tbody>
-                        <tr >
+                        <tr>
                             <td *ngFor="let vid of vidlist">
 
                                 <video class="video" poster="{{vid.vidlist}}" (click)="change(vid._id)">
-                                    <source  src="{{vid.videoURL}}" type="video/mp4">
+                                    <source src="{{vid.videoURL}}" type="video/mp4">
                                 </video>
                             </td>
                         </tr>

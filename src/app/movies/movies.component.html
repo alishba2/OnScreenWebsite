@@ -9,41 +9,15 @@
                 <table class="table">
                   <thead></thead>
                     <tbody>
-                        <tr >
-                            <td *ngFor="let img of imagist" class="item"><img src="{{img.imageURl}}" alt=""></td>
+                        <tr>
+                            <td *ngFor="let mov of imagist">
+                                <video class="video" poster="{{mov.imagist}}" (click)="change(mov._id)">
+                                    <source  src="{{mov.moviesURl}}" type="video/mp4">
+                                </video>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
-                <!-- <img src="{{img.imageURl}}" alt=""> -->
-
-                <!-- <div class="item">
-                    <img src="../../assets/nb_ist_cover.jpg" (click)="change()">
-                </div>
-                <div class="item">
-                    <img src="../../assets/html-slider-wordpress.jpg">
-                </div>
-                <div class="item">
-                    <img src="../../assets/pic.jpg">
-                </div>
-                <div class="item">
-                    <img src="../../assets/walking.jpg">
-                </div>
-                <div class="item">
-                    <img src="../../assets/heist.jpg">
-                </div>
-
-                <div class="item">
-                    <img src="../../assets/pic.jpg">
-                </div>
-                <div class="item">
-                    <img src="../../assets/heist.jpg">
-                </div>
-                <div class="item">
-                    <img src="../../assets/walking.jpg">
-                </div>
-                <div class="item">
-                    <img src="../../assets/pic.jpg">
-                </div> -->
             </div>
             <div class="button-area">
                 <span type="button" class="prev material-icons btn-sm" appPrev><fa-icon class="Icon" [icon]="left"></fa-icon></span>

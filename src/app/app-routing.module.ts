@@ -19,9 +19,9 @@ const routes: Routes = [
   {path:'login' , component:LoginComponent},
   {path:'signup' , component:SignUpComponent},
   {path:'show-video/:id' , component:ShowVideoComponent},
-  {path: 'showMovie' , component:ShowMovieComponent},
+  {path: 'showMovie/:id' , component:ShowMovieComponent},
 
-  {path:'list', component:ListComponent , children:[
+  {path:'list', canActivate:[AuthGuard], component:ListComponent , children:[
     {path:'navbar' , component:NavbarComponent},
     {path:'songs', component:SongsComponent},
     {path:'videos', component:SongsComponent},

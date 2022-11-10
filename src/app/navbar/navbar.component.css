@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Titillium+Web:ital,wght@1,200&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Titillium+Web:ital,wght@1,200&display=swap");
 
 * {
-  font-family: 'Mukta', sans-serif;
+  font-family: "Mukta", sans-serif;
   font-size: 18px;
 }
-
 
 .example-spacer {
   flex: 1 1 auto;
@@ -30,111 +28,93 @@ a:hover {
   color: rgb(179, 167, 167);
 }
 
-.icon{
+.icon {
   background: none;
   padding-top: 7px;
   font-size: 20px;
-  padding-right:20px;
+  padding-right: 20px;
   padding-left: -10px;
   color: white;
 }
 
-.header_change{
-  position:fixed;
-  background:rgb(0,0,0,0.4);
+.header_change {
+  position: fixed;
+  background: rgb(0, 0, 0, 0.4);
   box-shadow: 0;
   border: none;
 }
 
-.form-control{
+.form-control {
   background-color: black;
   width: 12rem;
   border: none;
-  color:white;
+  color: white;
   border: 1px solid white;
   margin-right: 1rem;
 }
 
-.form-control:active{
+.form-control:active {
   border: 1 px solid white !important;
 }
 
-.notification{
+.notification {
   width: 0;
 }
 
- .Icon{
+.Icon {
   color: white;
-} 
+}
 
-.navEnd{
+.navEnd {
   display: flex;
   float: right;
-  margin-left: 11rem;
+  margin-left: 14rem;
   margin-top: 1rem;
 }
 
-.KIDS{
+.KIDS {
   margin-right: 2rem;
   margin-left: 1rem;
 }
 
-.username{
+.username {
   margin-right: 20px;
 }
 
-.iconimg{
+.iconimg {
   height: 38px;
   border-radius: 3px;
   padding: -10px;
   margin-right: -7px;
-
-} */
-
-::ng-deep .custom-class {
-
+}
+ ::ng-deep .custom-class {
   border-radius: 0px !important;
-  background-color:  black!important;
+  background-color: black !important;
   color: rgb(179, 167, 167) !important;
   border: 1px solid black !important;
   width: 200px;
   text-align: center !important;
 }
 
- mat-menu-item{
+mat-menu-item {
+  border-bottom: 1px solid black;
+  color: rgb(179, 167, 167) !important;
+}
+::ng-deep .items {
+  margin-right: 50px !important;
+  text-align: center;
 
   border-bottom: 1px solid black;
   color: rgb(179, 167, 167) !important;
-
-}
-::ng-deep .items{
-    margin-right: 50px !important;
-    text-align: center;
-
-  border-bottom: 1px solid black;
-  color: rgb(179, 167, 167) !important;
-
 }
 
-/* .example-form {
-  min-width: 150px;
-  max-width: 500px;
-  width: 100%;
-}
-
- .example-full-width {
-  width: 100%;
-} */
-
-input[type=text] {
+input[type="text"] {
   width: 100px;
   box-sizing: border-box;
-  /* border: 2px solid #ccc; */
   border-radius: 4px;
   font-size: 16px;
   background-color: black;
-  /* background-image: url("../../assets/Capture.PNG"); */
-  background-position: 10px 10px; 
+  background-position: 10px 10px;
   background-repeat: no-repeat;
   padding: 0px 12px 0px 0px;
   -webkit-transition: width 0.4s ease-in-out;
@@ -143,6 +123,6 @@ input[type=text] {
   color: white;
 }
 
-input[type=text]:focus {
+input[type="text"]:focus {
   width: 100%;
 }

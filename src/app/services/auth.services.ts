@@ -20,6 +20,5 @@ export class AuthserviceService {
     localStorage.removeItem('token');
     localStorage.removeItem('id');
     this.router.navigateByUrl('login')
-
   }
 }

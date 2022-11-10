@@ -1,9 +1,8 @@
-import { Component, ElementRef, OnInit, QueryList, ViewChild } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 import { Router } from '@angular/router';
 import {faArrowRight} from '@fortawesome/free-solid-svg-icons'
 import {faArrowLeft} from '@fortawesome/free-solid-svg-icons'
 import { UservideosService } from '../services/uservideos.service';
-import { ShowVideoComponent } from '../show-video/show-video.component';
 
 
 @Component({

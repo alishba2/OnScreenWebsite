@@ -44,6 +44,7 @@ export class NavbarComponent implements OnInit {
       this.header_change = false;
     }
   }
+  
   logOut() { 
     this.auth.logOut();
   }
