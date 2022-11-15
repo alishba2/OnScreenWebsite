@@ -1,28 +1,28 @@
 <section class="product">
-    <div class="container-fluid">
-        <div class="title">
-            <span>Trending movies</span>
-        </div>
-        
-        <div class="slider-wrap">
-            <div class="slider-main" >
-                <table class="table">
-                  <thead></thead>
-                    <tbody>
-                        <tr>
-                            <td *ngFor="let mov of imagist">
-                                <video class="video" poster="{{mov.imagist}}" (click)="change(mov._id)">
-                                    <source  src="{{mov.moviesURl}}" type="video/mp4">
-                                </video>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="button-area">
-                <span type="button" class="prev material-icons btn-sm" appPrev><fa-icon class="Icon" [icon]="left"></fa-icon></span>
-                <span type="button" class="next material-icons  btn-sm" appNext><fa-icon class="Icon" [icon]="right"></fa-icon></span>
-            </div>
-        </div>
+  <div class="container-fluid">
+    <div class="title">
+      <span>Trending movies</span>
     </div>
+
+    <div class="slider-wrap">
+      <div class="slider-main">
+        <video
+          *ngFor="let mov of imagist"
+          class="video item"
+          poster="{{ mov.imagist }}"
+          (click)="change(mov._id)"
+        >
+          <source src="{{ mov.moviesURl }}" type="video/mp4" />
+        </video>
+      </div>
+      <div class="button-area">
+        <span type="button" class="prev material-icons btn-sm" appPrev
+          ><fa-icon class="Icon" [icon]="left"></fa-icon
+        ></span>
+        <span type="button" class="next material-icons btn-sm" appNext
+          ><fa-icon class="Icon" [icon]="right"></fa-icon
+        ></span>
+      </div>
+    </div>
+  </div>
 </section>

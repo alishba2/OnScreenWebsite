@@ -1,41 +1,33 @@
-import { Component, OnInit} from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import {faArrowRight} from '@fortawesome/free-solid-svg-icons'
-import {faArrowLeft} from '@fortawesome/free-solid-svg-icons'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import { UservideosService } from '../services/uservideos.service';
-
 
 @Component({
   selector: 'videos',
   templateUrl: './videos.component.html',
-  styleUrls: ['./videos.component.css']
+  styleUrls: ['./videos.component.css'],
 })
 export class VideosComponent implements OnInit {
- 
-  vidlist:any;
-  constructor(private userVideo:UservideosService,
-              private router: Router,) { }
+  vidlist: any;
+  constructor(private userVideo: UservideosService, private router: Router) {}
 
   right = faArrowRight;
   left = faArrowLeft;
 
-
-  
-
   ngOnInit(): void {
     this.getData();
-   
   }
 
-  getData(){
-    return this.userVideo.getVideos().subscribe((res)=>{
-    this.vidlist=res;
-    console.log(res)
-    })
+  getData() {
+    return this.userVideo.getVideos().subscribe((res) => {
+      this.vidlist = res;
+      console.log(res);
+    });
   }
 
-  change(id:string){
+  change(id: string) {
     this.router.navigate([`show-video/${id}`]);
   }
-
 }

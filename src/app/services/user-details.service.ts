@@ -12,6 +12,10 @@ export class UserDetailsService {
   getId() {
     return localStorage.getItem('id')
   }
+
+  getData(id:any){
+    return this.http.get(this.url + id);
+  }
   
   postData(data: userDetails) {
     return this.http.post(this.url +'/signUp',data);

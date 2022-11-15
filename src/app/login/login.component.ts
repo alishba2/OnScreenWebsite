@@ -28,8 +28,8 @@ export class LoginComponent implements OnInit {
       if(res.message === "login successfully")this.router.navigateByUrl('/list');
       console.log(res);
 
-      localStorage.setItem('id', res.uDetails._id);
-      localStorage.setItem('token', res.uDetails.tokens[res.uDetails.tokens.length-1].token);
+      localStorage.setItem('id', res.userDetails._id);
+      localStorage.setItem('token', res.userDetails.tokens[res.userDetails.tokens.length-1].token);
      },
      error=>{
       console.log(error);

@@ -69,4 +69,10 @@ section{
 .video{
   height: 12rem;
   width: 20rem;
+  transition: transform 1s;
 }
+
+.video:hover {
+  transform: scale(1.2, 1.5);
+}
+

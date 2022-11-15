@@ -11,11 +11,11 @@
   display: flex;
   overflow: hidden;
   height: 200px;
-
 }
 
 .item {
   margin: 0 4px;
+
 }
 
 .text {

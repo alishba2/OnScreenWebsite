@@ -4,7 +4,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
-// import { MoviesComponent } from './movies/movies.component';
 import { VideosComponent } from './videos/videos.component';
 import { SongsComponent } from './songs/songs.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -32,8 +31,8 @@ import {MatMenuModule} from '@angular/material/menu';
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { HttpClientModule} from '@angular/common/http';
-import { AuthserviceService } from './services/auth.services';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { NgImageSliderModule } from 'ng-image-slider';
 
 @NgModule({
   declarations: [
@@ -74,7 +73,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
-    FlexLayoutModule 
+    FlexLayoutModule,
+    NgImageSliderModule
   ],
   bootstrap: [AppComponent]
 })

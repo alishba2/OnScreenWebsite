@@ -1,19 +1,13 @@
 .main {
-  /* background-color:bisque; */
-  background-image: url('../../assets/wallpaperflare.com_wallpaper.jpg');
+  background-image: url("../../assets/wallpaperflare.com_wallpaper.jpg");
   background-repeat: no-repeat;
-
   background-size: 100% 100%;
   margin: 0px;
   padding: 0px;
   height: 100vh;
 }
 
-
-
 .container {
-  /* border:1px solid black; */
-  /* background-color: beige; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,39 +15,28 @@
   margin: auto;
   margin-left: 10rem;
   width: 77%;
-  padding: 115px;
-
-}
-form{
-
-padding: 45px;
-/* padding-right: 170px; */
-opacity: 70%;
-
-position: relative;
-background-color: black;
-height: 530px;
-
 }
 
-/* form div{
-opacity: 1;
-} */
+form {
+  margin-top: 5rem;
+  padding: 45px;
+  opacity: 70%;
+  position: relative;
+  background-color: black;
+  height: 530px;
+}
 
 .login {
-color:white;
-font-size: 30px;
-margin-left: 10px;
-font-weight: 350;
-margin-bottom: 40px;
-}
-
-
-.ran{
   color: white;
-  /* font-weight: bold; */
+  font-size: 30px;
+  margin-left: 10px;
+  font-weight: 350;
+  margin-bottom: 40px;
 }
 
+.ran {
+  color: white;
+}
 
 .form-control {
   width: 200%;
@@ -63,50 +46,48 @@ margin-bottom: 40px;
   border: 1px solid rgb(82, 79, 79);
   color: white;
 }
-.btnSubmit{
 
-background-color:#E50914;
-width: 400px;
-border: none;
-border-radius: 0px;
-z-index:1;
-color: white;
-margin-top: 26px;
-font-family: 300;
-}
-.btnSubmit:hover{
-background-color: #E50914;
-box-shadow: #E50914;
-
+.btnSubmit {
+  background-color: #e50914;
+  width: 400px;
+  border: none;
+  border-radius: 0px;
+  z-index: 1;
+  color: white;
+  margin-top: 26px;
+  font-family: 300;
 }
 
-.endText{
-color: white;
-margin-top: 20px;
-
+.btnSubmit:hover {
+  background-color: #e50914;
+  box-shadow: #e50914;
 }
-.checkbox{
+
+.endText {
+  color: white;
+  margin-top: 20px;
+}
+.checkbox {
   margin-right: 2px;
   border: none;
   border-radius: 0%;
   background-color: rgb(82, 79, 79);
   border: 1px solid rgb(82, 79, 79);
   color: rgb(82, 79, 79);
-
 }
-.help{
+.help {
   display: flex;
   float: right;
 }
-.etex{
- margin-top: 10px;
- color: rgb(100, 94, 94);
+.etex {
+  margin-top: 10px;
+  color: rgb(100, 94, 94);
 }
 
-.end{
+.end {
   padding-top: 115px;
   color: rgb(100, 94, 94);
 }
-input[type=checkbox] {
+input[type="checkbox"] {
   accent-color: rgb(100, 94, 94);
 }
