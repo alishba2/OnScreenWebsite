@@ -30,6 +30,8 @@ export class LoginComponent implements OnInit {
 
       localStorage.setItem('id', res.userDetails._id);
       localStorage.setItem('token', res.userDetails.tokens[res.userDetails.tokens.length-1].token);
+
+      
      },
      error=>{
       console.log(error);
